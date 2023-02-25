@@ -1,12 +1,13 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Zekun Wu, a Ph.D. student ",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
         "skills": "Skills",
-        "experience": "Experience"
+        "experience": "Experience",
+        "education": "Education"
       }
     },
     "projects": [
@@ -113,6 +114,20 @@
           "JavaScript",
           "DHTMLX Gantt"
         ]
+      }
+    ],
+    "education": [
+      {
+        "school": "Saarland University",
+        "location":"Saarbrücken, Germany",
+        "title": "Ph.D. Student, Computer Science",
+        "years": "02.2023 - present"
+      },
+      {
+        "school": "Washington University in St. Louis",
+        "location":"St. Louis, United States of America",
+        "title": "Master Student, Data Analytics & Statistics ",
+        "years": "09.2019 - 05.2021"
       }
     ]
   }
