@@ -82,10 +82,6 @@ class App extends Component {
   }
 
   render() {
-    console.log('main')
-
-    console.log(this.state.resumeData)
-    console.log(this.state.resumeData.education)
     return (
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
@@ -128,10 +124,10 @@ class App extends Component {
           sharedBasicInfo={this.state.sharedData.basic_info}
         />
         
-        {/* <Projects
+        <Projects
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
-        /> */}
+        />
 
         <Education
           resumeEducation={this.state.resumeData.education}
