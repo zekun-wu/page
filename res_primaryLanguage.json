@@ -1,38 +1,23 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Zekun Wu, a Ph.D. student ",
+      "description": "I'm a Ph.D. student working at the Computatiaonl Interaction Lab, Saarland University. My current research interest is mainly focused in analyzing and predicting user's fixations when interacting with interface. Before moving to the Germany, I also have few research experience in huamn reliability analysis and data visualization. ",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
-        "skills": "Skills",
         "experience": "Experience",
-        "education": "Education"
+        "education": "Education",
+        "skills": "Skills"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Human Reliability Analyses based on Cognitive Motivation Model",
+        "startDate": "2016",
+        "description": "Conducting a simulation to model the impact of motivation intensity on human performance with artificial neural network. Leading a team of four students in designing and conducting simulated experiment on aircraft approaching process. Examining statistical analyses of different influencing factors on human performance; techniques used includes ANOVA, regression analysis, and smoothing with curve fitting.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
+          "public/images/portfolio/HRA/qre2453-fig-0006-m.jpeg",
+          "public/images/portfolio/HRA/qre2453-fig-0005-m.jpeg"
         ]
       },
       {
