@@ -8,31 +8,49 @@ class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
       const technologies = this.props.data.technologies;
-      const images = this.props.data.images;
+      // const images = this.props.data.images;
       var title = this.props.data.title;
+      console.log(this.props.data)
       var description = this.props.data.description;
+      console.log(description)
       var url = this.props.data.url;
-      if (this.props.data.technologies) {
-        var tech = technologies.map((icons, i) => {
-          return (
-            <li className="list-inline-item mx-3" key={i}>
-              <span>
-                <div className="text-center">
-                  <i className={icons.class} style={{ fontSize: "300%" }}>
-                    <p className="text-center" style={{ fontSize: "30%" }}>
-                      {icons.name}
-                    </p>
-                  </i>
-                </div>
-              </span>
-            </li>
-          );
-        });
-        if (this.props.data.images) {
-          var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} />;
-          });
-        }
+      // if (this.props.data.technologies) {
+      //   var tech = technologies.map((icons, i) => {
+      //     return (
+      //       <li className="list-inline-item mx-3" key={i}>
+      //         <span>
+      //           <div className="text-center">
+      //             <i className={icons.class} style={{ fontSize: "300%" }}>
+      //               <p className="text-center" style={{ fontSize: "30%" }}>
+      //                 {icons.name}
+      //               </p>
+      //             </i>
+      //           </div>
+      //         </span>
+      //       </li>
+      //     );
+      //   });
+        // if (this.props.data.images) {
+        //   var img = images.map((elem, i) => {
+        //     return <div key={i} data-src={elem} />;
+        //   });
+        // }
+        console.log(description)
+        if (description){
+          var descriptionItems = description.map((d, i) => {
+            return  (
+              <li className="list-inline-item mx-3" key={i}>
+                  <span>
+                     <div className="text-center">
+                       <i style={{ fontSize: "300%" }}>
+                         <p className="text-left" style={{ fontSize: "30%" }}>
+                           {d}
+                         </p>
+                       </i>
+                     </div>
+                 </span>
+              </li>)
+        })
       }
     }
     return (
@@ -47,7 +65,7 @@ class ProjectDetailsModal extends Component {
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
         <div className="col-md-12">
-          <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
+          {/* <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
             <div className="slider-tab">
               <span
                 className="iconify slider-iconfiy"
@@ -73,9 +91,9 @@ class ProjectDetailsModal extends Component {
               animation="scaleOutAnimation"
               className="slider-image"
             >
-              {img}
-            </AwesomeSlider>
-          </div>
+              {/* {img} */}
+            {/* </AwesomeSlider>
+          </div> */} 
           <div className="col-md-10 mx-auto">
             <h3 style={{ padding: "5px 5px 0 5px" }}>
               {title}
@@ -93,10 +111,8 @@ class ProjectDetailsModal extends Component {
                 </a>
               ) : null}
             </h3>
-            <p className="modal-description">{description}</p>
-            <div className="col-md-12 text-center">
-              <ul className="list-inline mx-auto">{tech}</ul>
-            </div>
+            <div className="col-md-12 text-left"></div>
+            <ul className="list-inline mx-auto">{descriptionItems}</ul>
           </div>
         </div>
       </Modal>

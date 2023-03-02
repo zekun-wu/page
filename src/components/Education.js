@@ -12,12 +12,10 @@ class Education extends Component {
 
     if (this.props.resumeEducation && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.education;
-      console.log(this.props)
       var edu = this.props.resumeEducation.map(function (edu, i) {
         const school = edu.school;
         const title = edu.title;
         const loc = edu.location;
-        console.log(edu)
 
         // var tech = technologies.map((technology, i) => {
         //   return (
