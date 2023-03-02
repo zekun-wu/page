@@ -14,54 +14,26 @@
       {
         "title": "Human Reliability Analyses based on Cognitive Motivation Model",
         "startDate": "2016",
-        "description": "Conducting a simulation to model the impact of motivation intensity on human performance with artificial neural network. Leading a team of four students in designing and conducting simulated experiment on aircraft approaching process. Examining statistical analyses of different influencing factors on human performance; techniques used includes ANOVA, regression analysis, and smoothing with curve fitting.",
+        "description": [
+          "Conducting a simulation to model the impact of motivation intensity on human performance with artificial neural network.",
+          "Leading a team of four students in designing and conducting simulated experiment on aircraft approaching process.",
+          "Examining statistical analyses of different influencing factors on human performance; techniques used includes ANOVA, regression analysis, and smoothing with curve fitting."
+        ],
         "images": [
-          "public/images/portfolio/HRA/qre2453-fig-0006-m.jpeg",
-          "public/images/portfolio/HRA/qre2453-fig-0005-m.jpeg"
+          "public/images/portfolio/HRA/qre2453-fig-0006-m.jpg",
+          "public/images/portfolio/HRA/qre2453-fig-0005-m.jpg"
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+        "title": "Comparative Study of User Behaviors between Immersive and Desktop Environment",
+        "startDate": "2021",
+        "description": [
+          "Designing and conducting the experiment on the US Covid-19 map visual interface on both desktop and AR environment.",
+          "Implementing the machine-learning based classification methods such as kNN, CNN and ROCKET, on the user data to predict the task type.",
+          "Providing the interpretation results on the explorative task participants doing with the trained model."
         ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
+          "images/portfolio/VR/fig1b.png"
         ]
       }
     ],
