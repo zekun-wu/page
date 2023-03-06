@@ -10,6 +10,22 @@
         "skills": "Skills"
       }
     },
+    "publications": [
+      {
+        "title": "Publication Title",
+        "authors": "Author One, Author Two",
+        "venue": "Conference Name",
+        "year": "2021",
+        "url": "https://example.com/publication-url"
+      },
+      {
+        "title": "Another Publication Title",
+        "authors": "Author Three, Author Four",
+        "venue": "Journal Name",
+        "year": "2022",
+        "url": "https://example.com/another-publication-url"
+      }
+    ],
     "projects": [
       {
         "title": "Human Reliability Analyses based on Cognitive Motivation Model",
@@ -20,8 +36,7 @@
           "Examining statistical analyses of different influencing factors on human performance; techniques used includes ANOVA, regression analysis, and smoothing with curve fitting."
         ],
         "images": [
-          "public/images/portfolio/HRA/qre2453-fig-0006-m.jpg",
-          "public/images/portfolio/HRA/qre2453-fig-0005-m.jpg"
+          "images/portfolio/HRA/qre2453-fig-0006-m.jpg"
         ]
       },
       {
