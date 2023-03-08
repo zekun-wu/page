@@ -1,0 +1,58 @@
+  #publications {
+    background-color: white;
+    padding: 0 40px;
+  }
+
+  #publications a{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  #publications h1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    font: 18px/24px 'opensans-bold', sans-serif;
+    letter-spacing: 3px;
+    color: #353239;
+    margin: 0 auto 20px auto;
+    width: 100%;
+  }
+
+  #publications table {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  #publications th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  #publications th,
+  #publications td {
+    border: none;
+    padding: 8px;
+  }
+  
+  #publications tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #publications tr:hover {
+    background-color: #ddd;
+  }
+  
+  #publications tbody tr:last-child td {
+    padding-bottom: 50px;
+  }
+  
+  .section {
+    margin-top: 50px;
+  }
+
+  
