@@ -4,12 +4,57 @@
       "description": "I'm a Ph.D. student working at the Computatiaonl Interaction Lab, Saarland University. My current research interest is mainly focused in analyzing and predicting user's fixations when interacting with interface. Before moving to the Germany, I also have few research experience in huamn reliability analysis and data visualization. ",
       "section_name": {
         "about": "About me",
+        "publications":"Publications",
         "projects": "Projects",
         "experience": "Experience",
         "education": "Education",
         "skills": "Skills"
       }
     },
+    "publications": [
+      {
+        "title": "A Study of Real-time Information on User Behaviors during Search and Rescue (SAR) Training of Firefighters",
+        "authors": "S Doroudian, Z Wu, W Wang, A Galati, A Lu",
+        "venue": "2022 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)",
+        "year": "2022",
+        "url": "https://ieeexplore.ieee.org/abstract/document/9757602"
+      },
+      {
+        "title": "A human-centered risk model for the construction safety",
+        "authors": "K Wu, Z Wu",
+        "venue": "IEEE Access 8, 154072-154086",
+        "year": "2020",
+        "url": "https://ieeexplore.ieee.org/abstract/document/9171291"
+      },
+      {
+        "title": "Performance shaping factors in the human error probability modification of human reliability analysis",
+        "authors": "X Pan, Z Wu",
+        "venue": "International Journal of Occupational Safety and Ergonomics 26 (3), 538-550",
+        "year": "2020",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10803548.2018.1498655"
+      },
+      {
+        "title": "The task demands‐resources method: A new approach to human reliability analysis from a psychological perspective",
+        "authors": "Z Wu, X Pan, X Zhao, Y Jiang",
+        "venue": "Quality and Reliability Engineering International 35 (4), 1200-1218",
+        "year": "2019",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/qre.2453"
+      },
+      {
+        "title": "Relation of motivation intensity, stress levels and human performance: a human reliability experiment",
+        "authors": "Z Wu, X Pan, X Chen",
+        "venue": "2017 11th Asian Control Conference (ASCC), 2209-2214",
+        "year": "2017",
+        "url": "https://ieeexplore.ieee.org/abstract/document/8287518"
+      },
+      {
+        "title": "Influence of work motivation and task difficulty on human reliability",
+        "authors": "Z Wu, X Pan, H Wang, J Chen",
+        "venue": "2017 Second International Conference on Reliability Systems Engineering (ICRSE)",
+        "year": "2017",
+        "url": "https://ieeexplore.ieee.org/abstract/document/8030722"
+      }
+    ],
     "projects": [
       {
         "title": "Human Reliability Analyses based on Cognitive Motivation Model",
@@ -20,12 +65,11 @@
           "Examining statistical analyses of different influencing factors on human performance; techniques used includes ANOVA, regression analysis, and smoothing with curve fitting."
         ],
         "images": [
-          "public/images/portfolio/HRA/qre2453-fig-0006-m.jpg",
-          "public/images/portfolio/HRA/qre2453-fig-0005-m.jpg"
+          "images/portfolio/HRA/qre2453-fig-0006-m.jpg"
         ]
       },
       {
-        "title": "Comparative Study of User Behaviors between Immersive and Desktop Environment",
+        "title": "Comparative Study between Immersive and Desktop Environment",
         "startDate": "2021",
         "description": [
           "Designing and conducting the experiment on the US Covid-19 map visual interface on both desktop and AR environment.",

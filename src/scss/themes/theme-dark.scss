@@ -53,6 +53,19 @@ body[data-theme="dark"] {
       }
    }
 
+   #projects {
+      background: #5b5b5b;
+      .section-title {
+         color: white !important;
+      }
+      .foto div {
+         background: #6d6d6d;
+      }
+      .project-title-settings {
+         color: white;
+      }
+   }
+
    #portfolio {
       background: #5b5b5b;
       .section-title {

@@ -5,7 +5,37 @@ import React, { Component } from "react";
 // import vueIcon from "@iconify/icons-logos/vue";
 
 class About extends Component {
+
+  replaceLinkPlaceholder(text) {
+    const linkText = "Computational Interaction Lab";
+    const linkUrl = "https://cix.cs.uni-saarland.de/";
+    const textToReplace = "Computatiaonl Interaction Lab";
+  
+    const parts = text.split(textToReplace);
+    const processedContent = [];
+  
+    parts.forEach((part, index) => {
+      processedContent.push(part);
+  
+      if (index < parts.length - 1) {
+        processedContent.push(
+          <a
+            key={index}
+            href={linkUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {linkText}
+          </a>
+        );
+      }
+    });
+  
+    return processedContent;
+  }
+
   render() {
+
     if (this.props.sharedBasicInfo) {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
     }
@@ -14,6 +44,12 @@ class About extends Component {
       var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
     }
+  
+    // Check if the `about` variable is defined before rendering its content
+    const aboutContent = about
+    ? this.replaceLinkPlaceholder(about)
+    : "Loading...";
+
 
     return (
       <section id="about">
@@ -80,7 +116,7 @@ class About extends Component {
                     <span className="wave">{hello} :) </span>
                     <br />
                     <br />
-                    {about}
+                    {aboutContent}
                   </div>
                 </div>
               </div>

@@ -4,7 +4,7 @@ import "./App.scss";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
-import Experience from "./components/Experience";
+import Publications from './components/Publications';
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
@@ -82,6 +82,7 @@ class App extends Component {
   }
 
   render() {
+    // console.log(this.state.resumeData.publications);
     return (
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
@@ -123,7 +124,15 @@ class App extends Component {
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
         />
-        
+
+        {this.state.resumeData.publications ?
+            <Publications 
+            resumePublications={this.state.resumeData.publications}
+            sharedBasicInfo={this.state.resumeData.basic_info}  
+            />
+          : null
+        }
+                
         <Projects
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
